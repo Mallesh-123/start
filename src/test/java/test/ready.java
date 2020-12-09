@@ -4,9 +4,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Test;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class ready {
 	
@@ -23,5 +24,4 @@ public class ready {
 		driver.get("https://dashboard.stage.kychub.com/login");
 	}
 	
-
 }
