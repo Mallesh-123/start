@@ -3,6 +3,9 @@
   <groupId>start</groupId>
   <artifactId>start123</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+        <suiteXmlFile>testng.xml</suiteXmlFile>
+    </properties>
     <dependencies>
     <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
